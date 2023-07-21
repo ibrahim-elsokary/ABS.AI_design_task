@@ -38,8 +38,10 @@ class _HomeBodyState extends State<HomeBody> {
               _petlist = [];
               if (value.isNotEmpty) {
                 _petlist = PetList.petList
-                    .where((element) =>
-                        element.type.toString().toLowerCase().startsWith(value))
+                    .where((element) => element.petType
+                        .toString()
+                        .toLowerCase()
+                        .startsWith(value))
                     .toList();
               } else {
                 _petlist = PetList.petList;

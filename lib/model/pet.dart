@@ -1,8 +1,8 @@
 class Pet {
-  final String type;
-  final String name;
-  final int age;
-  final String image;
+  final String petType;
+  final String petCategory;
+  final int petLoveCount;
+  final String petPic;
 
-  Pet(this.type, this.name, this.age, this.image);
+  Pet(this.petType, this.petCategory, this.petLoveCount, this.petPic);
 }

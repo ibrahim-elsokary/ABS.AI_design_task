@@ -32,9 +32,9 @@ class ListItem extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("${pet.name}", style: const TextStyle(fontSize: 22)),
+                      Text("${pet.petCategory}", style: const TextStyle(fontSize: 22)),
                       Text(
-                        "${pet.type}",
+                        "${pet.petType}",
                         style: const TextStyle(
                           fontSize: 15,
                           color: Color(0xffACACAC),
@@ -52,7 +52,7 @@ class ListItem extends StatelessWidget {
                           const SizedBox(
                             width: 10,
                           ),
-                          Text("Pet Love : ${pet.age}",
+                          Text("Pet Love : ${pet.petLoveCount}",
                               style: const TextStyle(
                                   fontSize: 15, color: Color(0xffDB6400))),
                         ],
