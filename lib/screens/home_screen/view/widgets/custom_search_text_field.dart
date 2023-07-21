@@ -17,8 +17,11 @@ class CustomSearchTextField extends StatelessWidget {
       child: TextField(
           onChanged: onChanged,
           cursorColor: Colors.black,
+          textAlign: TextAlign.center,
           decoration: InputDecoration(
-              hintText: "Search",
+              contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
+              alignLabelWithHint: true,
+              hintText: "Search By Pet Type",
               border: InputBorder.none,
               prefixIcon: Image.asset('assets/icons/magnifier 1.png'))),
     );
