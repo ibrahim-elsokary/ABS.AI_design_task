@@ -4,7 +4,7 @@ This project is to implement a UI design for a pet shop app in Flutter. The UI d
 Here what i did 😎 :
 
 - Implement the UI design from scratch.
-- Using design assets fonts & icons & dumy data file
+- Using design assets fonts & icons & dummy data file
 - Get the UI alive and interactive.
 - create a search bar that allows users to search for pets by type. The search bar is case insensitive, so users can search for pet types in any capitalization
 
